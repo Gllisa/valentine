@@ -6,5 +6,5 @@ for (let i = 0; i < squares; i++) {
   square.classList.add("square");
   square.addEventListener("mouseover", function (event) {});
   square.addEventListener("mouseout", function (event) {});
-  container.appendChild(square); //Uncaught TypeError: Cannot read properties of null (reading 'appendChild')
+  container.appendChild(square); //Uncaught TypeError: Cannot read properties of null (reading 'appendChild').
 }
