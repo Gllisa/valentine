@@ -110,6 +110,11 @@ body {
   }
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
 .container-hearth {
   display: flex;
   justify-content: center;
@@ -121,7 +126,6 @@ body {
   text-decoration: none;
   //border: 1px solid rgb(255, 170, 244);
   padding: 20px;
-  margin: 20px;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
 }
